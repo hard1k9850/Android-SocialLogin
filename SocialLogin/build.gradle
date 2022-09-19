@@ -1,0 +1,49 @@
+plugins {
+    id 'com.android.library'
+    id 'kotlin-android'
+    id 'kotlin-android-extensions'
+}
+
+android {
+    compileSdkVersion 32
+
+    defaultConfig {
+        minSdkVersion 22
+        targetSdkVersion 32
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //Google Login SDK
+    implementation 'com.google.android.gms:play-services-auth:20.3.0'
+    //Facebook Login SDK
+    implementation 'com.facebook.android:facebook-login:13.2.0'
+    //LinkedIn SDK
+    implementation 'com.shantanudeshmukh:linkedinsdk:1.0.0'
+    //Apple Login && Twitter Login
+    implementation 'com.google.firebase:firebase-auth:21.0.8'
+    implementation "androidx.appcompat:appcompat:1.5.1"
+    implementation 'com.google.android.material:material:1.6.1'
+    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
+    implementation "com.squareup.okhttp3:okhttp:4.9.1"
+
+}

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginFragment">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLoginWithGoogle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login with Google"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLoginWithFacebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Login with Facebook"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLoginWithLinkedin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Login with LinkedIn"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLoginWithTwitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Login with Twitter"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLoginWithApple"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Login with Apple"
+        android:textAllCaps="false"
+        android:textColor="@android:color/black"
+        android:textSize="16dp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>

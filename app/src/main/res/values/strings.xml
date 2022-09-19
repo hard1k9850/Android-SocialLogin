@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">SocialLoginApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="linkedInApiKey">77k6eahew0nr2x</string>
+    <string name="linkedInSecretKey">cflmD41MB43qKnyt</string>
+    <string name="linkedInRedirectUrl">https://www.google.com/oAuth</string>
+</resources>
