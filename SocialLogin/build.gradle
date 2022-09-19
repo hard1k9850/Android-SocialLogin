@@ -31,6 +31,11 @@ android {
     }
 }
 
+repositories {
+    mavenCentral()
+    maven { url 'https://jitpack.io' }
+}
+
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     //Google Login SDK
@@ -41,9 +46,5 @@ dependencies {
     implementation 'com.shantanudeshmukh:linkedinsdk:1.0.0'
     //Apple Login && Twitter Login
     implementation 'com.google.firebase:firebase-auth:21.0.8'
-    implementation "androidx.appcompat:appcompat:1.5.1"
-    implementation 'com.google.android.material:material:1.6.1'
-    implementation "androidx.constraintlayout:constraintlayout:2.1.4"
-    implementation "com.squareup.okhttp3:okhttp:4.9.1"
 
 }
